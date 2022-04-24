@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+}
+body{
+    border:2px solid darkblue;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3cpvBDZEHPHSyZf2jblqgasO_hPPXNSH5pA&usqp=CAU"); */
+
+  border:2px solid darkgoldenrod;
+  background-position: center;
+  background-size: cover;
+  background-color: #293143;
+  
+}
+
+nav{
+    width:100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    /* background-color: green; */
+
+}
+
+#logo{
+    cursor:pointer;
+    align-self:flex-start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo img{
+    width:80px;
+}
+
+nav li{
+    padding:10px 10px;
+    margin:10px 10px;
+    display: inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color:#ffff;
+    font-size:22px;
+
+}
+.tradingview-widget-container{ 
+    
+   width:100%;
+    
+ }
+
+
+#tradingview_417af{
+    height: 93vh;
+    border:2px solid darkred;
+    width:100%;
+    
+}
+
+.livec{
+    background-color: #293143;
+    height:100px;
+    width: 100%;
+}
+
+.widgets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+}
+
+.list{
+    display: flex;
+    width:40%;
+    justify-content: flex-end;
+}

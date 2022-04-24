@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+    <script src="./script1.js"></script>
+    <!-- CSS only -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+
+        <nav>
+            <div id="logo">
+                <a href="#"><img src="../logo.png" alt="no!"></a>
+            </div>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index1.html">Exlore</a></li>
+            <li><a href="../index3.html">About</a></li>
+            <!-- <li><a href="#">Page4</a></li> -->
+            <!-- <a href="#" class="btn">LOG IN</a> -->
+        </nav>
+	</div>
+	
+	
+	<div class="widgets">
+	<div class="tradingview-widget-container">
+		<div id="tradingview_417af"></div>
+		<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+		<script type="text/javascript">
+			new TradingView.widget({
+				"autosize": true,
+				"symbol": "COINBASE:BTCUSD",
+				"interval": "W",
+				"timezone": "Europe/Zurich",
+				"theme": "Dark",
+				"style": "1",
+				"locale": "en",
+					"toolbar_bg": "#f1f3f6",
+					"enable_publishing": false,
+					"withdateranges": true,
+					"hide_side_toolbar": false,
+					"allow_symbol_change": true,
+					"details": false,
+					"studies": [
+						"PivotPointsHighLow@tv-basicstudies",
+						"RSI@tv-basicstudies",
+						"StochasticRSI@tv-basicstudies",
+						"Volume@tv-basicstudies"
+					],
+					"container_id": "tradingview_417af"
+				});
+				</script>
+		</div>
+		<div class="list">
+			<script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-3" lcw-base="USD" lcw-d-head="true" lcw-d-name="true" lcw-d-code="true" lcw-d-icon="true" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="1" ></div>
+			
+		</div>
+	</div>	
+		<script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#00d084" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="10" ></div>
+		<div class="livec">
+		
+			<script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="BTC" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="1" ></div>
+		    <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="ETH" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="1" ></div>
+			<script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="SHIB" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="1" ></div>
+		</div>
+       	
+		
+       
+	
+	</div>
+</body>
+</html>
